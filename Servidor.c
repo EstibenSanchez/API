@@ -12,7 +12,7 @@
 #define PORT 2222
 #define MAXLINE 4096
 #define TRUE 1
-
+/*creacion socket*/
 int crearsocket(int *port, int type){
     int sockfd;
     struct sockaddr_in adr;
